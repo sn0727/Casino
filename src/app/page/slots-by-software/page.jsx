@@ -1,4 +1,5 @@
 import CommanContainer from "@/app/components/Container/Container";
+import Image from "next/image";
 
 export default function SlotBySoftware() {
   return (
@@ -15,7 +16,7 @@ export default function SlotBySoftware() {
             <div className='bgBlur mb-14 p-4 custom-hover'>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
-                  <img src="/assets/casino/casino_03.png" className='w-fulls' alt="" />
+                  <Image width={240} height={100} src="/assets/casino/casino_03.png" className='w-fulls' alt="" />
                   <div className='w-5/6 flex items-center justify-between'>
                     <div className='mr-5 font-sans not-italic text-white font-bold leading-normal text-xl'>Powered By</div>
                     <div className='font-sans not-italic text-white font-black leading-normal text-xl'>RTG</div>
@@ -71,7 +72,7 @@ export default function SlotBySoftware() {
           {
             [1, 2, 3, 4, 5, 6].map(() => (
               <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover'>
-                <img src="/assets/casino/casino_03.png" className='mx-auto m:auto' alt="" />
+                <Image width={240} height={100} src="/assets/casino/casino_03.png" className='mx-auto m:auto' alt="" />
                 <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'> FireStorm </h1>
                 <div className="flex justify-center">
                   {

@@ -1,6 +1,7 @@
 import CommanContainer from "@/app/components/Container/Container";
+import Image from "next/image";
 
-export default function () {
+export default function Bitcoin() {
   return (
     <CommanContainer>
       <div className='w-full custome-h overflow-x-auto p-4 bgImage'>
@@ -15,7 +16,7 @@ export default function () {
             <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
-                  <img src="/assets/casino/casino_02.png" className='w-fulls' alt="" />
+                  <Image width={240} height={100} src="/assets/casino/casino_02.png" className='w-fulls' alt="" />
                   <h1 className='font-sans not-italic text-white font-bold leading-normal text-xl text-center'>Bitcoin Casino Extreme Review</h1>
                 </div>
                 <div className='w-1/4'>

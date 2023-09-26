@@ -1,5 +1,6 @@
 import React from 'react'
 import CommanContainer from '../../components/Container/Container'
+import Image from 'next/image'
 
 const HomePage = () => {
   return (
@@ -17,7 +18,7 @@ const HomePage = () => {
             <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
-                  <img src="/assets/casino/casino_01.png" className='w-fulls' alt="" />
+                  <Image width={100} height={100} src="/assets/casino/casino_01.png" className='w-fulls' alt="" />
                   <h1 className='font-sans not-italic text-white font-bold leading-normal text-xl'>Casino Extreme Review</h1>
                 </div>
                 <div className='w-1/4'>
@@ -58,7 +59,7 @@ const HomePage = () => {
           {
             [1, 2, 3, 4, 5, 6].map((index) => (
               <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover' key={index}>
-                <img src="assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
+                <Image width={100} height={100} src="/assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
                 <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme Review</h1>
                 <div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>Deposit Bonus</div>
@@ -86,7 +87,7 @@ const HomePage = () => {
             <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
-                  <img src="assets/casino/casino_01.png" className='w-fulls' alt="" />
+                  <Image width={100} height={100} src="/assets/casino/casino_01.png" className='w-fulls' alt="" />
                   <h1 className='font-sans not-italic text-white font-bold leading-normal text-xl'>Casino Extreme Review</h1>
                 </div>
                 <div className='w-1/4'>
@@ -120,7 +121,7 @@ const HomePage = () => {
           {
             [1, 2, 3, 4, 5, 6].map((index) => (
               <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover' key={index}>
-                <img src="assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
+                <Image width={100} height={500} src="/assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
                 <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme Review</h1>
                 <div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>Deposit Bonus</div>

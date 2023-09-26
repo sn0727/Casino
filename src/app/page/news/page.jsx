@@ -1,4 +1,5 @@
 import CommanContainer from "@/app/components/Container/Container";
+import Image from "next/image";
 
 export default function News() {
   return (
@@ -18,8 +19,8 @@ export default function News() {
           </div>
           <div className="w-2/5">
             <div className="bgNewsBlog p-4">
-              <img src="/assets/news/news.png" className="w-full rounded-3xl" alt="news" />
-              <h1 className="pt-3 pb-10 font-sans not-italic font-bold text-2xl">$1M Gambling Fraud Mastermind Lands Prison Sentence</h1>
+              <Image width={500} height={100} src="/assets/news/news.png" className="w-full rounded-3xl" alt="news" />
+              <h1 className="pt-3 pb-5 font-sans not-italic font-bold text-2xl">$1M Gambling Fraud Mastermind Lands Prison Sentence</h1>
               <p className="font-sans not-italic text-white font-medium text-sm">Most Americans understand skipping the 13th floor. Why would you want to rent a room there when you probably came to Las Vegas to chase good luck in a casino? The floors at the Rio skip from 39 to 50. (Image: Scott Roeben/Vital Vegas) But the 4th and the 40s are banished because, to many Asian visitors, the number 4 is just as unlucky as 13 is to Westerners. And that’s because it sounds similar to the word for “death.” (Both are transliterated as “si” in Mandarin, and as “shi” in Japanese.) Also following this hotel-heightening design are Planet Hollywood, Aria, Delano, Resorts World, the Rio, and the Palms, which are all at least 10 stories shorter than they claim to be on their driver’s licenses.</p>
             </div>
           </div>
