@@ -13,8 +13,8 @@ const HomePage = () => {
         </div>
         {/* 01 row data */}
         {
-          [1, 2, 3, 4, 5].map(() => (
-            <div className='bgBlur mb-14 p-4 custom-hover'>
+          [1, 2, 3, 4, 5].map((index) => (
+            <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
                   <img src="/assets/casino/casino_01.png" className='w-fulls' alt="" />
@@ -56,8 +56,8 @@ const HomePage = () => {
         {/* 03 card row data */}
         <div className='flex items-center justify-start custom-body flex-wrap gap-5'>
           {
-            [1, 2, 3, 4, 5, 6].map(() => (
-              <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover'>
+            [1, 2, 3, 4, 5, 6].map((index) => (
+              <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover' key={index}>
                 <img src="assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
                 <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme Review</h1>
                 <div>
@@ -82,8 +82,8 @@ const HomePage = () => {
         <div className='mb-14'></div>
         {/* 04 row data */}
         {
-          [1, 2, 3, 4, 5].map(() => (
-            <div className='bgBlur mb-14 p-4 custom-hover'>
+          [1, 2, 3, 4, 5].map((index) => (
+            <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
                   <img src="assets/casino/casino_01.png" className='w-fulls' alt="" />
@@ -118,8 +118,8 @@ const HomePage = () => {
         {/* 05 card row data */}
         <div className='flex items-center justify-start custom-body flex-wrap gap-5'>
           {
-            [1, 2, 3, 4, 5, 6].map(() => (
-              <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover'>
+            [1, 2, 3, 4, 5, 6].map((index) => (
+              <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover' key={index}>
                 <img src="assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
                 <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme Review</h1>
                 <div>

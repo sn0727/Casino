@@ -11,8 +11,8 @@ export default function () {
         </div>
         {/* 01 row data */}
         {
-          [1, 2, 3, 4, 5].map(() => (
-            <div className='bgBlur mb-14 p-4 custom-hover'>
+          [1, 2, 3, 4, 5].map((index) => (
+            <div className='bgBlur mb-14 p-4 custom-hover' key={index}>
               <div className='flex items-center justify-center'>
                 <div className='w-1/4 flex items-center justify-center flex-col'>
                   <img src="/assets/casino/casino_02.png" className='w-fulls' alt="" />
