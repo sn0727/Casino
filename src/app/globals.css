@@ -13,15 +13,190 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --bg-color: #000;
   }
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --bg-color: #000;
+  --text-color: rgba(243, 135, 4, 1);
+  --bg-primary: #116FFF;
+  --white: #fff;
+  --black: #000;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--bg-color)
+}
+
+.text-orange {
+  color: var(--text-color);
+}
+
+.bgBlur {
+  border-radius: 20px;
+  border: 3px solid #9747FF;
+  background: rgba(215, 233, 255, 0.50);
+  backdrop-filter: blur(15px);
+}
+
+.bg-button-blue {
+  background-color: var(--bg-primary);
+  border-radius: 20px;
+}
+
+.bg-button-white {
+  background-color: var(--white);
+  border-radius: 20px;
+}
+
+.text-button-blue {
+  color: var(--bg-primary);
+}
+
+.custome-h {
+  height: 500px;
+}
+
+.bgImage {
+  background-image: url('./../../public/assets/casino/casino-animation.gif');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(0 0 0 / 63%);
+  background-blend-mode: color;
+}
+
+.custom-hover,
+.font-sans,
+.bg-button-blue,
+.bg-button-white,
+.text-black {
+  transition: all 0.5s;
+}
+
+.custom-hover:hover {
+  box-shadow: 0 3px 5px 12px #f9f9f99e;
+  transition: all 0.5s;
+}
+
+.custom-hover:hover .font-sans {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+}
+
+.custom-hover:hover .text-black {
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+  color: var(--bg-primary);
+}
+
+.custom-hover:hover .bg-button-blue {
+  background-color: var(--white);
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+  color: var(--bg-primary);
+  margin-bottom: 15px;
+}
+
+.custom-hover:hover .bg-button-white {
+  background-color: var(--bg-primary);
+  transform: scale(1.2, 1.2);
+  transition: all 0.5s;
+  color: var(--white);
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: var(--bg-primary);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.custom-body .custom-card {
+  width: calc(25% - 1rem);
+}
+
+.bg-footer-color {
+  background-color: #25255087;
+}
+
+.bgColorSidebar {
+  border-radius: 30px;
+  background: rgba(148, 193, 255, 0.50);
+  backdrop-filter: blur(5px);
+  width: 72px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.bgColorSidebar li {
+  margin: 10px 0;
+  padding: 3px;
+  border-radius: 15px;
+  transition: all 0.5;
+}
+
+.bgColorSidebar li:hover {
+  background: rgb(94 118 152 / 44%);
+  transition: all 0.5;
+}
+
+.bgColorSidebar li a img,
+.bgColorSidebar li div img {
+  max-width: 50px;
+}
+
+.bgColorSidebar:hover {
+  width: 376px;
+  transition: all 0.5s;
+}
+
+.bgColorSidebar li a span {
+  overflow: hidden;
+  height: 30px;
+}
+
+.custom-input {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  width: 368px;
+  overflow: hidden;
+}
+
+.bgNews {
+  border-radius: 30px;
+  background: rgba(148, 193, 255, 0.50);
+  backdrop-filter: blur(2px);
+}
+
+.bgNewsBlog {
+  border-radius: 20px;
+  border: 3px solid #9747FF;
+  background: rgb(76 104 141);
+  backdrop-filter: blur(2px);
 }
