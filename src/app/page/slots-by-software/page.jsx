@@ -5,11 +5,7 @@ import Image from "next/image";
 export default function SlotBySoftware() {
   return (
     <CommanContainer>
-<<<<<<< HEAD
       <div className='w-full custome-h overflow-x-auto pb-0 p-4 bgImage'>
-=======
-      <div className='w-full custome-h overflow-x-auto p-4 pb-0 bgImage'>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
         <div className='bgBlur mb-14'>
           <p className='p-3 font-sans not-italic font-bold text-justify leading-normal text-sm md:text-sm lg:text-md xm:text-2xl'>
             Welcome to the No Deposit Casino Guide delivering the latest No Deposit casino bonuses and codes. Being in the industry sionce 2004 we have a great relation with all casinos listed here and can promote them with confidence. Please feel free to comment on our daily casino bonuses as well and any reviews we have here as your input is important.
@@ -112,18 +108,9 @@ export default function SlotBySoftware() {
         </div>
         {/* spaceing div */}
         <div className='mb-14'></div>
-<<<<<<< HEAD
-        {/* 04 row data */}
-      </div>
-      {/* spaceing div */}
-      <div className='mb-14'></div>
-        <Footer />
-=======
-        {/* spaceing div */}
-        <div className='mb-14'></div>
         <Footer />
       </div>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
+
     </CommanContainer>
   )
 }

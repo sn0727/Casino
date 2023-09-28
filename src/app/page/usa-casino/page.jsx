@@ -7,11 +7,7 @@ const USACasino = () => {
   return (
 
     <CommanContainer>
-<<<<<<< HEAD
       <div className='w-full custome-h overflow-x-auto pb-0 p-4 bgImage'>
-=======
-      <div className='w-full custome-h overflow-x-auto p-4 pb-0 bgImage'>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
         <div className='bgBlur mb-14'>
           <p className='p-3 font-sans not-italic font-bold text-justify leading-normal text-sm md:text-sm lg:text-md xm:text-2xl'>
             Welcome to the No Deposit Casino Guide delivering the latest No Deposit casino bonuses and codes. Being in the industry sionce 2004 we have a great relation with all casinos listed here and can promote them with confidence. Please feel free to comment on our daily casino bonuses as well and any reviews we have here as your input is important.
@@ -65,11 +61,7 @@ const USACasino = () => {
             [1, 2, 3, 4].map(() => (
               <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover'>
                 <Image width={240} height={100} src="/assets/casino/casino_02.png" className='mx-auto m:auto' alt="" />
-<<<<<<< HEAD
-                <h1 className='font-sans my-3 not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme Review</h1>
-=======
-                <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme <br /> Review </h1>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
+                <h1 className='font-sans my-3 not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme <br /> Review</h1>
                 <div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>Deposit Bonus</div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>200</div>
@@ -82,7 +74,6 @@ const USACasino = () => {
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>Powered By</div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>RTG</div>
                 </div>
-<<<<<<< HEAD
                 <h1 className='font-sans my-3  not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl tracking-widest'>Casino Extreme Review</h1>
                 <button className='bg-button-blue text-white mb-2 font-bold py-2 px-10 text-md tracking-widest'>Play Now</button>
               </div>
@@ -132,7 +123,7 @@ const USACasino = () => {
             [1, 2, 3, 4, 5, 6].map(() => (
               <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover'>
                 <Image width={240} height={100} src="/assets/casino/casino_02.png" className='mx-auto m:auto' alt="" />
-                <h1 className='font-sans my-3 not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme Review</h1>
+                <h1 className='font-sans my-3 not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme <br /> Review</h1>
                 <div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>Deposit Bonus</div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>200</div>
@@ -145,10 +136,7 @@ const USACasino = () => {
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>Powered By</div>
                   <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-sm md:text-sm lg:text-sm xl:text-xl'>RTG</div>
                 </div>
-                <h1 className='font-sans my-3  not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme Review</h1>
-=======
-                <h1 className='font-sans my-3  not-italic text-black font-bold text-xl'>Casino Extreme <br /> Review</h1>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
+                <h1 className='font-sans my-3  not-italic text-black font-bold text-sm md:text-sm lg:text-sm xl:text-xl'>Casino Extreme <br /> Review</h1>
                 <button className='bg-button-blue text-white mb-2 font-bold py-2 px-10 text-md tracking-widest'>Play Now</button>
               </div>
             ))
@@ -157,16 +145,8 @@ const USACasino = () => {
           <div className='mb-14'></div>
           <Footer />
         </div>
-<<<<<<< HEAD
       </div>
 
-=======
-       
-        {/* spaceing div */}
-        <div className='mb-14'></div>
-        <Footer />
-      </div>
->>>>>>> cdd869eed5e18edb7be3d0edf322c1a16d39256f
     </CommanContainer>
 
   )
