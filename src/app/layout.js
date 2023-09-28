@@ -1,4 +1,3 @@
-import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Sidebar from './components/Sidebar/Sidebar'
 import './globals.css'
@@ -16,10 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <main className='relative'>
-          <Sidebar funcProper={"hello"}/>
+          <Sidebar />
           <Header />
           {children}
-          {/* <Footer /> */}
         </main>
       </body>
     </html>

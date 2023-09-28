@@ -2,6 +2,7 @@ import React from 'react'
 import CommanContainer from '../../components/Container/Container'
 import Image from 'next/image'
 import Footer from '@/app/components/Footer/Footer'
+import Footer from '@/app/components/Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -111,6 +112,8 @@ const HomePage = () => {
                     <button className='bg-button-blue text-white mb-2 font-bold py-2 px-10 text-sm md:text-sm lg:text-sm xl:text-xl tracking-widest'>Play Now</button>
                     <button className='bg-button-white text-button-blue font-bold py-2 px-6 text-sm md:text-sm lg:text-sm xl:text-xl tracking-widest'>Review</button>
                   </div>
+                  <h1 className='font-sans my-3  not-italic text-black font-bold text-xl '>Casino Extreme <br /> Review</h1>
+                  <button className='bg-button-blue text-white mb-2 font-bold py-2 px-10 text-md tracking-widest'>Play Now</button>
                 </div>
               </div>
             </div>
@@ -141,6 +144,35 @@ const HomePage = () => {
               </div>
             ))
           }
+
+          {/* 05 card row data */}
+          <div className='flex items-center justify-start custom-body flex-wrap gap-5'>
+            {
+              [1, 2, 3, 4].map((index) => (
+                <div className='w-1/4 bgBlur custom-card  p-3 text-center custom-hover' key={index}>
+                  <Image width={100} height={500} src="/assets/casino/casino_01.png" className='mx-auto m:auto' alt="" />
+                  <h1 className='font-sans my-3 not-italic text-black font-bold text-xl'>Casino Extreme <br /> Review</h1>
+                  <div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>Deposit Bonus</div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>200</div>
+                  </div>
+                  <div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>No Deposit Bonus</div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>$30</div>
+                  </div>
+                  <div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>Powered By</div>
+                    <div className='mb-2 font-sans not-italic text-white font-bold leading-normal text-xl'>RTG</div>
+                  </div>
+                  <h1 className='font-sans my-3  not-italic text-black font-bold text-xl'>Casino Extreme <br /> Review</h1>
+                  <button className='bg-button-blue text-white mb-2 font-bold py-2 px-10 text-md tracking-widest'>Play Now</button>
+                </div>
+              ))
+            }
+          </div>
+          {/* spaceing div */}
+          <div className='mb-14'></div>
+          <Footer />
         </div>
         {/* spaceing div */}
         <div className='mb-14'></div>
