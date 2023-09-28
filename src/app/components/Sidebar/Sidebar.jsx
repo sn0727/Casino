@@ -1,10 +1,15 @@
+
+// import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
+
 export default function Sidebar() {
+
   return (
     <>
-      <div className="absolute top-14 z-10 left-5" id="sidebar">
+      <div className="desktop-device absolute top-14 z-10 left-5" id="sidebar">
         <ul className="bgColorSidebar p-2">
           <li className="mb-4 w-full">
             <div className="flex items-center justify-start">
@@ -19,7 +24,7 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="mb-4 w-full">
-          <Link href={"/"} className="flex items-center justify-start">
+            <Link href={"/"} className="flex items-center justify-start">
               <Image src="/assets/sidebar-icon/privacy.png" width={100} height={100} alt="contact" />
               <span className="pl-2 text-white font-sans text-2xl font-bold">Privacy Policy</span>
             </Link>
@@ -53,6 +58,60 @@ export default function Sidebar() {
               <Image src="/assets/sidebar-icon/flag.png" width={100} height={100} alt="contact" />
               <span className="pl-2 text-white font-sans text-2xl font-bold">USA Casino</span>
             </Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="mobile-device absolute top-14 z-10 left-5" id="sidebar">
+      <input type="checkbox" role="button" aria-label="Display the menu" className="menu" />
+        <ul className="bgColorSidebar p-2">
+          <li className="mb-4 w-full">
+            <div className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/search.png" width={100} height={100} alt="contact" />
+              <input type="text" placeholder="Search" className="custom-input pl-2 text-white font-sans text-2xl font-bold" />
+            </div>
+          </li>
+          <li className="mb-4 w-full">
+            <a href={"/"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/contact.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">No Deposit Casino Guide</span>
+            </a>
+          </li>
+          <li className="mb-4 w-full">
+            <a href={"/"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/privacy.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">Privacy Policy</span>
+            </a>
+          </li>
+          <li className="mb-4 w-full">
+            <a href={"/"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/tree.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">Casino By Software</span>
+            </a>
+          </li>
+          <li className="mb-4 w-full">
+            <a href="/page/slots-by-software" className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/laptop.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">Slots By Software</span>
+            </a>
+          </li>
+          <li className="mb-4 w-full">
+            <a href={"/page/bit-coin"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/bitcoin.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">Bitcoin Casino</span>
+            </a>
+          </li>
+          <li className="mb-4 w-full">
+            <a href={"/page/news"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/notes.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">News</span>
+            </a>
+          </li>
+          <li className="w-full">
+            <a href={"/page/usa-casino"} className="flex items-center justify-start">
+              <Image src="/assets/sidebar-icon/flag.png" width={100} height={100} alt="contact" />
+              <span className="pl-2 text-white font-sans text-2xl font-bold">USA Casino</span>
+            </a>
           </li>
         </ul>
       </div>

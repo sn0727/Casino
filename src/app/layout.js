@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <main className='relative'>
-          <Sidebar />
+          <Sidebar funcProper={"hello"}/>
           <Header />
           {children}
           {/* <Footer /> */}
