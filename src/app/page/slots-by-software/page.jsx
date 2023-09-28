@@ -1,10 +1,11 @@
 import CommanContainer from "@/app/components/Container/Container";
+import Footer from "@/app/components/Footer/Footer";
 import Image from "next/image";
 
 export default function SlotBySoftware() {
   return (
     <CommanContainer>
-      <div className='w-full custome-h overflow-x-auto p-4 bgImage'>
+      <div className='w-full custome-h overflow-x-auto p-4 pb-0 bgImage'>
         <div className='bgBlur mb-14'>
           <p className='p-3 font-sans not-italic font-bold text-justify leading-normal text-2xl'>
             Welcome to the No Deposit Casino Guide delivering the latest No Deposit casino bonuses and codes. Being in the industry sionce 2004 we have a great relation with all casinos listed here and can promote them with confidence. Please feel free to comment on our daily casino bonuses as well and any reviews we have here as your input is important.
@@ -107,13 +108,9 @@ export default function SlotBySoftware() {
         </div>
         {/* spaceing div */}
         <div className='mb-14'></div>
-        {/* 04 row data */}
-      </div>
-      <div className='w-full'>
-        <h1 className='py-3 font-sans not-italic font-bold text-justify leading-normal text-2xl'>Other no deposit casino bonus news</h1>
-        <p className='font-sans not-italic text-white font-bold text-sm'>
-          As a part of the Allfreechips no deposit casino bonus group, nodepositcasinoguide is dedicated to mainly giving you the latest no deposit bonuses directly without a bunch of filler garbage. Saucify offers a ton of no deposit casinos for USA along with RTG casinos. Microgaming is mainly delivering no deposit bonuses for Canada, while there are a giant group of software promoters for the rest of the world. If your in the UK then I’m sorry but your not smart enough to be trusted with a no deposit or free spin casino promo according to your elected officials.
-        </p>
+        {/* spaceing div */}
+        <div className='mb-14'></div>
+        <Footer />
       </div>
     </CommanContainer>
   )
