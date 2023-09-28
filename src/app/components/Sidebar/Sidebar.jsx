@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Sidebar() {
   return (
     <>
-      <div className="absolute top-14 z-10 left-5">
+      <div className="absolute top-14 z-10 left-5" id="sidebar">
         <ul className="bgColorSidebar p-2">
           <li className="mb-4 w-full">
             <div className="flex items-center justify-start">

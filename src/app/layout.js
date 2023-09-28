@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
           <Sidebar />
           <Header />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </body>
     </html>

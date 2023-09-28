@@ -59,7 +59,7 @@ body {
 }
 
 .custome-h {
-  height: 500px;
+  height: 450px;
 }
 
 .bgImage {
@@ -143,12 +143,15 @@ body {
 .bg-footer-color {
   background-color: #25255087;
 }
+.bg-footer-black {
+  background-color: #000;
+}
 
 .bgColorSidebar {
   border-radius: 30px;
   background: rgba(148, 193, 255, 0.50);
   backdrop-filter: blur(5px);
-  width: 72px;
+  width: 52px;
   overflow: hidden;
   transition: all 0.5s;
 }
@@ -167,7 +170,7 @@ body {
 
 .bgColorSidebar li a img,
 .bgColorSidebar li div img {
-  max-width: 50px;
+  max-width: 40px;
 }
 
 .bgColorSidebar:hover {
@@ -202,3 +205,48 @@ body {
   display: inline-block;
   margin-bottom: 20px;
 }
+
+
+/* =============== media query code =========== */
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+  .custom-body .custom-card {
+    width: calc(33.33% - 1rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sm-flex {
+    flex-direction: column;
+  }
+
+  .sm-flex>div {
+    width: 100% !important;
+  }
+
+  .sm-flex .text-xl {
+    font-size: 1rem;
+  }
+
+  .sm-padding {
+    padding: 15px;
+  }
+
+  .sm-padding .text-2xl {
+    font-size: 1rem;
+  }
+
+  .sm-footer>div>ul>li>a {
+    font-size: 0.725rem;
+  }
+
+  .sm-footer>div>ul>li:first-child {
+    list-style: none;
+  }
+
+  .sm-justify-center {
+    justify-content: center;
+  }
+
+}
+
+/* =============== media query code =========== */

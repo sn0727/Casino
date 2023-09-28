@@ -5,7 +5,7 @@ export default function News() {
   return (
     <div className="news-container">
       <CommanContainer>
-        <div className="bgNews gap-x-9 flex p-4 custome-h overflow-x-auto">
+        <div className="bgNews gap-x-9 sm-flex flex m-4 md:m-0 p-4 custome-h overflow-x-auto">
           <div className="w-3/5">
             <h1 className="pb-3 font-sans not-italic font-bold text-2xl">$1M Gambling Fraud Mastermind Lands Prison Sentence</h1>
             <p className="font-sans not-italic text-white font-medium text-sm">
